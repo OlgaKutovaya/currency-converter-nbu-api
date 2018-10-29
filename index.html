@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form class="form-wrapper">
+    <h1 class="heading">конвертер валют</h1>
+    <label>
+        <select id="selectCurrency">
+            <option value="none">Вибрати валюту</option>
+        </select>
+    </label>
+    <div class="wrapper">
+        <label>
+            Ввести суму
+            <input type="number" min="1" required id="inputMoney">
+        </label>
+        <p id="exchangeCurrency" class="currency-name"></p>
+    </div>
+    <div class="wrapper">
+        <label>
+            <input type="radio" name="currency-transaction" value="buy" id="buy" checked>
+            купити валюту
+        </label>
+        <label>
+            <input type="radio" name="currency-transaction" value="sell" id="sell">
+            продати валюту
+        </label>
+    </div>
+    <div class="wrapper">
+        <button class="btn-cla" id="btnCalculate">розрахувати</button>
+        <button class="btn-cla" type="reset">очистити поле</button>
+    </div>
+    <div class="wrapper result-wrapper">
+        <p>Результат</p>
+        <p id="resultInfo"></p>
+        <p id="resultCurrency" class="currency-name"></p>
+    </div>
+</form>
+<script src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+    background: #323232;
+    background-size: cover;
+}
+.form-wrapper {
+    width: 600px;
+    padding: 20px;
+    margin: 100px auto;
+    background: #ffffff;
+    border: 2px solid #5e5e5e;
+    box-shadow: 0 0 15px 0 #2f2e2d;
+    border-radius: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto;
+    width: 500px;
+    font-size: 20px;
+}
+
+.heading {
+    border-bottom: 2px solid #dcdfeb;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    word-spacing: 1rem;
+    color: #131423;
+}
+
+#selectCurrency {
+    display: block;
+    margin: 0 auto;
+    padding: 4px;
+    box-shadow: 1px 1px 5px 0 lightgray;
+    color: #4b518e;
+    font-weight: bold;
+}
+
+#inputMoney {
+    padding: 5px 7px;
+    margin-left: 15px;
+    text-align: center;
+    width: 170px;
+    border: none;
+    box-shadow: 1px 1px 7px #bbbbbb;
+}
+.enter-input:focus {
+    background: #fbfbfb;
+    outline: none;
+}
+
+.btn-cla {
+    padding: 12px 55px;
+    border: none;
+    color: whitesmoke;
+    background: #3f4477;
+    text-transform: uppercase;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 0 #a6a6a6;
+}
+
+.btn-cla:hover {
+    cursor: pointer;
+    background: #343862;
+    transition: 0.3s;
+}
+
+.result-wrapper p{
+    display: inline-block;
+}
+
+#resultInfo {
+    text-align: center;
+    min-width: 200px;
+    height: 25px;
+    border: none;
+    box-shadow: 1px 1px 7px #bbbbbb;
+    color: #232541;
+    font-weight: bold;
+}
+.currency-name {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    box-shadow: 1px 1px 7px #bbbbbb;
+    border: 1px solid lightgray;
+}
